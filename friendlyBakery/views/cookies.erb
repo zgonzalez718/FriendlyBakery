@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Isabellas Bakery </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+
+</head>
+
+<body>
+<div class="header">
+<a href="/"><img src="logoo.png" width="80" height="80" alt="logo"></a>
+<br>
+<img src="bakename.png" alt="bellas bakery" width="40%" height= "100px">
+  <div class="header-right">
+    <a class="active" href="/">Home</a>
+    <a href="/cookies">Cookies</a>
+    <a href="/cakes">Cakes</a>
+    <a href="/muffins">Muffins</a>
+  </div>
+</div>
+    <img id="boarder" src="scallop.png" alt="scallop boarder" width="100%">
+        <center><h3> get dem sweets </h3></center>
+
+
+        <div class="row">
+        <div class="column" style="background-color:#644536">
+        
+         <center> 
+         <img src= "chocoChip.jpg" alt="chocolate" width= "150" height="150">
+         <h2><%= @@firstCookie.name %> </h2>
+          <p><%= @@firstCookie.price %> </p>
+          <p> "Decadent chewy cookies made with the finest Swiss chocolate. Baked with love." </p></center>
+        </div>
+        <div class="column" style="background-color:#704C5E;">
+        <center> 
+         <img src= "snickerdoodle.jpg" alt="chocolate" width= "150" height="150">
+         <h2><%= @@secondCookie.name %> </h2>
+          <p><%= @@secondCookie.price %> </p>
+          <p>"Oooey gooey cookie for your sweettooth. Cinnamon and caramel make this warm cookie perfect any time of the day" </p></center>
+        </div>
+        <div class="column" style="background-color:#B88C9E;">
+        <center> 
+        <img src= "funfetti.jpg" alt="chocolate" width= "150" height="150">
+        <h2><%= @@thirdCookie.name %> </h2>
+         <p><%= @@thirdCookie.price %> </p>
+         <p> "This fun festive cookie made with homade sprinkles. Baked perfectly to make anyone smile"</p>
+         </center>
+        </div>
+      </div>
+      
+</body>
+
+</html>

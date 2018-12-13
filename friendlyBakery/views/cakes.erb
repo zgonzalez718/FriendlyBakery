@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Isabellas Bakery </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+
+</head>
+
+<body>
+<div class="header">
+<a href="/"><img src="logoo.png" width="80" height="80" alt="logo"></a>
+<br>
+<img src="bakename.png" alt="bellas bakery" width="40%" height= "100px">
+  <div class="header-right">
+    <a class="active" href="/">Home</a>
+    <a href="/cookies">Cookies</a>
+    <a href="/cakes">Cakes</a>
+    <a href="/muffins">Muffins</a>
+  </div>
+</div>
+    <img id="boarder" src="scallop.png" alt="scallop boarder" width="100%">
+    
+        <center><h3> get dem sweets </h3></center>
+
+
+        <div class="row">
+        <div class="column" style="background-color:#644536">
+        
+         <center> 
+         <img src= "redVelvet.jpeg" alt="chocolate" width= "150" height="150">
+         <h2><%= @@firstCake.name %> </h2>
+          <p><%= @@firstCake.price %> </p></center>
+          <p> "Lucious rich valrona chocolate cake made with sour cream for satisfying moist cake, Frosted with cream cheese."</p>
+        </div>
+        <div class="column" style="background-color:#704C5E;">
+        <center> 
+         <img src= "germanChoc.jpeg" alt="chocolate" width= "150" height="150">
+         <h2><%= @@secondCake.name %> </h2>
+          <p><%= @@secondCake.price %> </p>
+          <p>"This special cake is made with coconut, caramel, and pecans. Simple and flavorful. " </p></center>
+        </div>
+        <div class="column" style="background-color:#B88C9E;">
+        <center> 
+        <img src= "bDay.jpeg" alt="chocolate" width= "150" height="150">
+        <h2><%= @@thirdCake.name %> </h2>
+         <p><%= @@thirdCake.price %> </p>
+         <p> "Our classic birthday cake!" </p></center>
+        </div>
+      </div>
+
+
+
+</body>
+
+</html>

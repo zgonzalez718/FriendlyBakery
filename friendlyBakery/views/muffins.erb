@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Isabellas Bakery </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+
+</head>
+
+<body>
+<div class="header">
+<a href="/"><img src="logoo.png" width="80" height="80" alt="logo"></a>
+<br>
+<img src="bakename.png" alt="bellas bakery" width="40%" height= "100px">
+  <div class="header-right">
+    <a class="active" href="/">Home</a>
+    <a href="/cookies">Cookies</a>
+    <a href="/cakes">Cakes</a>
+    <a href="/muffins">Muffins</a>
+  </div>
+</div>
+    <img id="boarder" src="scallop.png" alt="scallop boarder" width="100%">
+        <center><h3> get dem sweets </h3></center>
+
+
+        <div class="row">
+        <div class="column" style="background-color:#644536">
+        
+         <center> 
+         <img src= "bBerry.jpeg" alt="chocolate" width= "150" height="150">
+         <h2><%= @@firstMuffin.name %> </h2>
+          <p><%= @@firstMuffin.price %> </p>
+          <p>"Classic blueberry muffin" </p></center>
+        </div>
+        <div class="column" style="background-color:#704C5E;">
+        <center> 
+         <img src= "morning.jpeg" alt="chocolate" width= "150" height="150">
+         <h2><%= @@secondMuffin.name %> </h2>
+          <p><%= @@secondMuffin.price %> </p>
+          <p> "Warm spices like cinnamon and nutmeg that pair perfect with coffee"</p></center>
+        </div>
+        <div class="column" style="background-color:#B88C9E;">
+        <center> 
+        <img src= "spaghetti.jpeg" alt="chocolate" width= "150" height="150">
+        <h2><%= @@thirdMuffin.name %> </h2>
+         <p><%= @@thirdMuffin.price %> </p>
+         <p> "Yeap, just what it sounds like"</p></center>
+        </div>
+      </div>
+    
+</body>
+
+</html>
